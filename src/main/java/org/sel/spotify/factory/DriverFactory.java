@@ -1,6 +1,8 @@
 package org.sel.spotify.factory;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +28,11 @@ public class DriverFactory {
     public WebDriver initDriver(Properties prop) {
 
         String browserName = prop.getProperty("browser").trim();
+//        String clientUser = prop.getProperty("clientID").trim();
+//        String clientKey = prop.getProperty("clientKey").trim();
         System.out.println("browser name is : " + browserName);
+//        System.out.println("clientUser name is : " + clientUser);
+//        System.out.println("clientKey  is : " + clientKey);
 
         highlightElement = prop.getProperty("highlight");
 

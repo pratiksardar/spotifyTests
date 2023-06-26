@@ -1,0 +1,876 @@
+2023-06-22 18:47:55 [main] INFO  APIBaseTest:31 - io.restassured.internal.RestAssuredResponseImpl@3e47a03
+2023-06-22 18:49:01 [main] INFO  APIBaseTest:31 - io.restassured.internal.RestAssuredResponseImpl@6ec7bce0
+2023-06-22 18:50:15 [main] INFO  APIBaseTest:31 - {
+  "album" : {
+    "album_type" : "single",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6nxWCVXbOlEVRexSbLsTer"
+      },
+      "href" : "https://api.spotify.com/v1/artists/6nxWCVXbOlEVRexSbLsTer",
+      "id" : "6nxWCVXbOlEVRexSbLsTer",
+      "name" : "Flume",
+      "type" : "artist",
+      "uri" : "spotify:artist:6nxWCVXbOlEVRexSbLsTer"
+    } ],
+    "available_markets" : [ ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/5eTAmV8stngDTcO4veqyVK"
+    },
+    "href" : "https://api.spotify.com/v1/albums/5eTAmV8stngDTcO4veqyVK",
+    "id" : "5eTAmV8stngDTcO4veqyVK",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273f221ae4798e902bf102e1bd2",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02f221ae4798e902bf102e1bd2",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851f221ae4798e902bf102e1bd2",
+      "width" : 64
+    } ],
+    "name" : "Never Be Like You (feat. Kai)",
+    "release_date" : "2016-01-16",
+    "release_date_precision" : "day",
+    "total_tracks" : 1,
+    "type" : "album",
+    "uri" : "spotify:album:5eTAmV8stngDTcO4veqyVK"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6nxWCVXbOlEVRexSbLsTer"
+    },
+    "href" : "https://api.spotify.com/v1/artists/6nxWCVXbOlEVRexSbLsTer",
+    "id" : "6nxWCVXbOlEVRexSbLsTer",
+    "name" : "Flume",
+    "type" : "artist",
+    "uri" : "spotify:artist:6nxWCVXbOlEVRexSbLsTer"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6xHUXzrfhFgnIv86EBR3Ml"
+    },
+    "href" : "https://api.spotify.com/v1/artists/6xHUXzrfhFgnIv86EBR3Ml",
+    "id" : "6xHUXzrfhFgnIv86EBR3Ml",
+    "name" : "kai",
+    "type" : "artist",
+    "uri" : "spotify:artist:6xHUXzrfhFgnIv86EBR3Ml"
+  } ],
+  "available_markets" : [ ],
+  "disc_number" : 1,
+  "duration_ms" : 234909,
+  "explicit" : true,
+  "external_ids" : {
+    "isrc" : "AUFF01500784"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/6y0igZArWVi6Iz0rj35c1Y"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/6y0igZArWVi6Iz0rj35c1Y",
+  "id" : "6y0igZArWVi6Iz0rj35c1Y",
+  "is_local" : false,
+  "name" : "Never Be Like You (feat. Kai)",
+  "popularity" : 0,
+  "preview_url" : null,
+  "track_number" : 1,
+  "type" : "track",
+  "uri" : "spotify:track:6y0igZArWVi6Iz0rj35c1Y"
+}
+2023-06-22 19:02:55 [main] INFO  APIBaseTest:31 - {
+  "album" : {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+      "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+      "name" : "Coldplay",
+      "type" : "artist",
+      "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+    } ],
+    "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "ET", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/2R7iJz5uaHjLEVnMkloO18"
+    },
+    "href" : "https://api.spotify.com/v1/albums/2R7iJz5uaHjLEVnMkloO18",
+    "id" : "2R7iJz5uaHjLEVnMkloO18",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273de0cd11d7b31c3bd1fd5983d",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02de0cd11d7b31c3bd1fd5983d",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851de0cd11d7b31c3bd1fd5983d",
+      "width" : 64
+    } ],
+    "name" : "Mylo Xyloto",
+    "release_date" : "2011-10-24",
+    "release_date_precision" : "day",
+    "total_tracks" : 14,
+    "type" : "album",
+    "uri" : "spotify:album:2R7iJz5uaHjLEVnMkloO18"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "type" : "artist",
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  } ],
+  "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+  "disc_number" : 1,
+  "duration_ms" : 278719,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "GBAYE1101143"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/6nek1Nin9q48AVZcWs9e9D"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/6nek1Nin9q48AVZcWs9e9D",
+  "id" : "6nek1Nin9q48AVZcWs9e9D",
+  "is_local" : false,
+  "name" : "Paradise",
+  "popularity" : 87,
+  "preview_url" : "https://p.scdn.co/mp3-preview/1039fd50eaca0a268a2378a6c9244bf85c8b961f?cid=be7ce4ba63524c8eb6582c44aeca2457",
+  "track_number" : 3,
+  "type" : "track",
+  "uri" : "spotify:track:6nek1Nin9q48AVZcWs9e9D"
+}
+2023-06-22 19:07:45 [main] INFO  APIBaseTest:31 - {
+  "album" : {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+      "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+      "name" : "Coldplay",
+      "type" : "artist",
+      "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+    } ],
+    "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "ET", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/2R7iJz5uaHjLEVnMkloO18"
+    },
+    "href" : "https://api.spotify.com/v1/albums/2R7iJz5uaHjLEVnMkloO18",
+    "id" : "2R7iJz5uaHjLEVnMkloO18",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273de0cd11d7b31c3bd1fd5983d",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02de0cd11d7b31c3bd1fd5983d",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851de0cd11d7b31c3bd1fd5983d",
+      "width" : 64
+    } ],
+    "name" : "Mylo Xyloto",
+    "release_date" : "2011-10-24",
+    "release_date_precision" : "day",
+    "total_tracks" : 14,
+    "type" : "album",
+    "uri" : "spotify:album:2R7iJz5uaHjLEVnMkloO18"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "type" : "artist",
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  } ],
+  "available_markets" : [ "AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK" ],
+  "disc_number" : 1,
+  "duration_ms" : 278719,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "GBAYE1101143"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/6nek1Nin9q48AVZcWs9e9D"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/6nek1Nin9q48AVZcWs9e9D",
+  "id" : "6nek1Nin9q48AVZcWs9e9D",
+  "is_local" : false,
+  "name" : "Paradise",
+  "popularity" : 87,
+  "preview_url" : "https://p.scdn.co/mp3-preview/1039fd50eaca0a268a2378a6c9244bf85c8b961f?cid=be7ce4ba63524c8eb6582c44aeca2457",
+  "track_number" : 3,
+  "type" : "track",
+  "uri" : "spotify:track:6nek1Nin9q48AVZcWs9e9D"
+}
+2023-06-22 19:23:33 [main] INFO  APIBaseTest:39 - artist:Coldplay
+2023-06-22 19:26:28 [main] INFO  APIBaseTest:39 - artist:Coldplay
+2023-06-22 19:28:47 [main] INFO  APIBaseTest:40 - artist:Coldplay
+2023-06-22 19:28:52 [main] INFO  APIBaseTest:56 - null
+2023-06-22 19:28:52 [main] INFO  APIBaseTest:57 - {
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=artist%3AColdplay&type=artist&offset=0&limit=20",
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 45079729
+      },
+      "genres" : [ "permanent wave", "pop" ],
+      "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+      "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/ab67616100005174989ed05e1f0570cc4726c2d3",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/ab6761610000f178989ed05e1f0570cc4726c2d3",
+        "width" : 160
+      } ],
+      "name" : "Coldplay",
+      "popularity" : 88,
+      "type" : "artist",
+      "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/14cDx3yNMNO94Ghqo3kVoF"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 242
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/14cDx3yNMNO94Ghqo3kVoF",
+      "id" : "14cDx3yNMNO94Ghqo3kVoF",
+      "images" : [ ],
+      "name" : "Coldplay & Lele",
+      "popularity" : 5,
+      "type" : "artist",
+      "uri" : "spotify:artist:14cDx3yNMNO94Ghqo3kVoF"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/54wN2dOk1qcTsURH43DgjA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 12
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/54wN2dOk1qcTsURH43DgjA",
+      "id" : "54wN2dOk1qcTsURH43DgjA",
+      "images" : [ ],
+      "name" : "ColdPlayTae",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:54wN2dOk1qcTsURH43DgjA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4kCPMsvSn8lqVeWYW26AWA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4kCPMsvSn8lqVeWYW26AWA",
+      "id" : "4kCPMsvSn8lqVeWYW26AWA",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732006274058c706a556adf3e4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022006274058c706a556adf3e4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512006274058c706a556adf3e4",
+        "width" : 64
+      } ],
+      "name" : "Coldplays",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4kCPMsvSn8lqVeWYW26AWA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4rug1v8OwBTLKCFbkyGiVl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4rug1v8OwBTLKCFbkyGiVl",
+      "id" : "4rug1v8OwBTLKCFbkyGiVl",
+      "images" : [ ],
+      "name" : "ColdPlay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4rug1v8OwBTLKCFbkyGiVl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0o5IGND0ZnQ53q8SipTph0"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/0o5IGND0ZnQ53q8SipTph0",
+      "id" : "0o5IGND0ZnQ53q8SipTph0",
+      "images" : [ ],
+      "name" : "Coldplay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:0o5IGND0ZnQ53q8SipTph0"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/76UED9y506U6yG1gwow0Ui"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/76UED9y506U6yG1gwow0Ui",
+      "id" : "76UED9y506U6yG1gwow0Ui",
+      "images" : [ ],
+      "name" : "COLDPLAYY WU",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:76UED9y506U6yG1gwow0Ui"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2wKgCt0edHo68HTsrWEJb2"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 390
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2wKgCt0edHo68HTsrWEJb2",
+      "id" : "2wKgCt0edHo68HTsrWEJb2",
+      "images" : [ ],
+      "name" : "Karaoke - Coldplay",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:2wKgCt0edHo68HTsrWEJb2"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1ztMJAoRFWrN0B0mM880Gl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 630
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/1ztMJAoRFWrN0B0mM880Gl",
+      "id" : "1ztMJAoRFWrN0B0mM880Gl",
+      "images" : [ ],
+      "name" : "Coldplay Metal Tribute",
+      "popularity" : 1,
+      "type" : "artist",
+      "uri" : "spotify:artist:1ztMJAoRFWrN0B0mM880Gl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2fSzCIUiE4rNjULU0aIyyt"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 4
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2fSzCIUiE4rNjULU0aIyyt",
+      "id" : "2fSzCIUiE4rNjULU0aIyyt",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737af0e1e9c97998e86e2903db",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027af0e1e9c97998e86e2903db",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517af0e1e9c97998e86e2903db",
+        "width" : 64
+      } ],
+      "name" : "Coldplay Piano Covers",
+      "popularity" : 3,
+      "type" : "artist",
+      "uri" : "spotify:artist:2fSzCIUiE4rNjULU0aIyyt"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 10
+  }
+}
+2023-06-22 19:31:23 [main] INFO  APIBaseTest:40 - artist:Coldplay
+2023-06-22 19:31:28 [main] INFO  APIBaseTest:56 - {
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=artist%3AColdplay&type=artist&offset=0&limit=20",
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 45079729
+      },
+      "genres" : [ "permanent wave", "pop" ],
+      "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+      "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/ab67616100005174989ed05e1f0570cc4726c2d3",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/ab6761610000f178989ed05e1f0570cc4726c2d3",
+        "width" : 160
+      } ],
+      "name" : "Coldplay",
+      "popularity" : 88,
+      "type" : "artist",
+      "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/14cDx3yNMNO94Ghqo3kVoF"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 242
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/14cDx3yNMNO94Ghqo3kVoF",
+      "id" : "14cDx3yNMNO94Ghqo3kVoF",
+      "images" : [ ],
+      "name" : "Coldplay & Lele",
+      "popularity" : 5,
+      "type" : "artist",
+      "uri" : "spotify:artist:14cDx3yNMNO94Ghqo3kVoF"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/54wN2dOk1qcTsURH43DgjA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 12
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/54wN2dOk1qcTsURH43DgjA",
+      "id" : "54wN2dOk1qcTsURH43DgjA",
+      "images" : [ ],
+      "name" : "ColdPlayTae",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:54wN2dOk1qcTsURH43DgjA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4kCPMsvSn8lqVeWYW26AWA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4kCPMsvSn8lqVeWYW26AWA",
+      "id" : "4kCPMsvSn8lqVeWYW26AWA",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732006274058c706a556adf3e4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022006274058c706a556adf3e4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512006274058c706a556adf3e4",
+        "width" : 64
+      } ],
+      "name" : "Coldplays",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4kCPMsvSn8lqVeWYW26AWA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4rug1v8OwBTLKCFbkyGiVl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4rug1v8OwBTLKCFbkyGiVl",
+      "id" : "4rug1v8OwBTLKCFbkyGiVl",
+      "images" : [ ],
+      "name" : "ColdPlay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4rug1v8OwBTLKCFbkyGiVl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0o5IGND0ZnQ53q8SipTph0"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/0o5IGND0ZnQ53q8SipTph0",
+      "id" : "0o5IGND0ZnQ53q8SipTph0",
+      "images" : [ ],
+      "name" : "Coldplay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:0o5IGND0ZnQ53q8SipTph0"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/76UED9y506U6yG1gwow0Ui"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/76UED9y506U6yG1gwow0Ui",
+      "id" : "76UED9y506U6yG1gwow0Ui",
+      "images" : [ ],
+      "name" : "COLDPLAYY WU",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:76UED9y506U6yG1gwow0Ui"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2wKgCt0edHo68HTsrWEJb2"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 390
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2wKgCt0edHo68HTsrWEJb2",
+      "id" : "2wKgCt0edHo68HTsrWEJb2",
+      "images" : [ ],
+      "name" : "Karaoke - Coldplay",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:2wKgCt0edHo68HTsrWEJb2"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1ztMJAoRFWrN0B0mM880Gl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 630
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/1ztMJAoRFWrN0B0mM880Gl",
+      "id" : "1ztMJAoRFWrN0B0mM880Gl",
+      "images" : [ ],
+      "name" : "Coldplay Metal Tribute",
+      "popularity" : 1,
+      "type" : "artist",
+      "uri" : "spotify:artist:1ztMJAoRFWrN0B0mM880Gl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2fSzCIUiE4rNjULU0aIyyt"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 4
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2fSzCIUiE4rNjULU0aIyyt",
+      "id" : "2fSzCIUiE4rNjULU0aIyyt",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737af0e1e9c97998e86e2903db",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027af0e1e9c97998e86e2903db",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517af0e1e9c97998e86e2903db",
+        "width" : 64
+      } ],
+      "name" : "Coldplay Piano Covers",
+      "popularity" : 3,
+      "type" : "artist",
+      "uri" : "spotify:artist:2fSzCIUiE4rNjULU0aIyyt"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 10
+  }
+}
+2023-06-23 12:33:32 [main] INFO  APIBaseTest:68 - artist:Coldplay
+2023-06-23 12:34:11 [main] INFO  APIBaseTest:68 - artist:Coldplay
+2023-06-23 12:39:10 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:39:11 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:41:34 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:44:56 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:46:36 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:47:09 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:50:55 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:52:23 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 12:57:49 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:27:42 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:27:56 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:29:17 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:29:47 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:31:44 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:33:00 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:34:02 [main] INFO  APIBaseTest:69 - artist:Coldplay
+2023-06-23 13:34:34 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 13:34:34 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 13:34:34 [main] INFO  APIBaseTest:85 - :::Coldplay
+2023-06-23 13:34:34 [main] INFO  APIBaseTest:96 - {
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=artist%3AColdplay&type=artist&offset=0&limit=20",
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 45104468
+      },
+      "genres" : [ "permanent wave", "pop" ],
+      "href" : "https://api.spotify.com/v1/artists/4gzpq5DPGxSnKTe4SA8HAU",
+      "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/ab67616100005174989ed05e1f0570cc4726c2d3",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/ab6761610000f178989ed05e1f0570cc4726c2d3",
+        "width" : 160
+      } ],
+      "name" : "Coldplay",
+      "popularity" : 88,
+      "type" : "artist",
+      "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/14cDx3yNMNO94Ghqo3kVoF"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 242
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/14cDx3yNMNO94Ghqo3kVoF",
+      "id" : "14cDx3yNMNO94Ghqo3kVoF",
+      "images" : [ ],
+      "name" : "Coldplay & Lele",
+      "popularity" : 5,
+      "type" : "artist",
+      "uri" : "spotify:artist:14cDx3yNMNO94Ghqo3kVoF"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/54wN2dOk1qcTsURH43DgjA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 12
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/54wN2dOk1qcTsURH43DgjA",
+      "id" : "54wN2dOk1qcTsURH43DgjA",
+      "images" : [ ],
+      "name" : "ColdPlayTae",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:54wN2dOk1qcTsURH43DgjA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4kCPMsvSn8lqVeWYW26AWA"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4kCPMsvSn8lqVeWYW26AWA",
+      "id" : "4kCPMsvSn8lqVeWYW26AWA",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732006274058c706a556adf3e4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022006274058c706a556adf3e4",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512006274058c706a556adf3e4",
+        "width" : 64
+      } ],
+      "name" : "Coldplays",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4kCPMsvSn8lqVeWYW26AWA"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4rug1v8OwBTLKCFbkyGiVl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4rug1v8OwBTLKCFbkyGiVl",
+      "id" : "4rug1v8OwBTLKCFbkyGiVl",
+      "images" : [ ],
+      "name" : "ColdPlay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:4rug1v8OwBTLKCFbkyGiVl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0o5IGND0ZnQ53q8SipTph0"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/0o5IGND0ZnQ53q8SipTph0",
+      "id" : "0o5IGND0ZnQ53q8SipTph0",
+      "images" : [ ],
+      "name" : "Coldplay Wu",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:0o5IGND0ZnQ53q8SipTph0"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/76UED9y506U6yG1gwow0Ui"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 0
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/76UED9y506U6yG1gwow0Ui",
+      "id" : "76UED9y506U6yG1gwow0Ui",
+      "images" : [ ],
+      "name" : "COLDPLAYY WU",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:76UED9y506U6yG1gwow0Ui"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2wKgCt0edHo68HTsrWEJb2"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 390
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2wKgCt0edHo68HTsrWEJb2",
+      "id" : "2wKgCt0edHo68HTsrWEJb2",
+      "images" : [ ],
+      "name" : "Karaoke - Coldplay",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:2wKgCt0edHo68HTsrWEJb2"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1ztMJAoRFWrN0B0mM880Gl"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 630
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/1ztMJAoRFWrN0B0mM880Gl",
+      "id" : "1ztMJAoRFWrN0B0mM880Gl",
+      "images" : [ ],
+      "name" : "Coldplay Metal Tribute",
+      "popularity" : 1,
+      "type" : "artist",
+      "uri" : "spotify:artist:1ztMJAoRFWrN0B0mM880Gl"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2fSzCIUiE4rNjULU0aIyyt"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 4
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2fSzCIUiE4rNjULU0aIyyt",
+      "id" : "2fSzCIUiE4rNjULU0aIyyt",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2737af0e1e9c97998e86e2903db",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e027af0e1e9c97998e86e2903db",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048517af0e1e9c97998e86e2903db",
+        "width" : 64
+      } ],
+      "name" : "Coldplay Piano Covers",
+      "popularity" : 3,
+      "type" : "artist",
+      "uri" : "spotify:artist:2fSzCIUiE4rNjULU0aIyyt"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 10
+  }
+}
+2023-06-23 13:35:32 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 13:35:32 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 13:35:32 [main] INFO  APIBaseTest:85 - :::Coldplay
+2023-06-23 14:06:57 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 14:06:57 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 14:06:57 [main] INFO  APIBaseTest:85 - :::Coldplay
+2023-06-23 14:07:28 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 14:07:28 [main] INFO  APIBaseTest:71 - artist:Coldplay
+2023-06-23 14:07:28 [main] INFO  APIBaseTest:85 - :::Coldplay
+2023-06-23 14:08:18 [main] INFO  APIBaseTest:39 - artist:Coldplay
+2023-06-23 14:09:40 [main] INFO  APIBaseTest:39 - artist:Coldplay

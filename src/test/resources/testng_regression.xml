@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Opencart App Test Regression Suite" thread-count="4"
+	parallel="tests" verbose="4">
+
+
+	<listeners>
+		 <listener class-name="org.sel.spotify.listeners.ExtentReportListener"/>
+		<listener
+			class-name="org.sel.spotify.listeners.TestAllureListener" />
+
+		<listener class-name="org.sel.spotify.listeners.AnnotationTransformer"/>
+	</listeners>
+
+	<test name="Home Page Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90.0" />
+		<parameter name="testcasename" value="Login Page Test" />
+		<classes>
+			<class name="org.sel.spotify.tests.UI.HomePageTests"/>
+		</classes>
+	</test>
+
+
+	<test name="Search  Page Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="112.0" />
+		<parameter name="testcasename" value="Product Info Page Test" />
+		<classes>
+			<class name="org.sel.spotify.tests.UI.SearchPageTests"/>
+		</classes>
+	</test>
+</suite>	

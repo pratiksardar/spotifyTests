@@ -23,6 +23,8 @@ public class HomePage {
 
     private final By search = By.xpath("//span[contains(.,'Search')]");
 
+    public final By searchButton = By.xpath("//a[href='/search']");
+
     private final By headingsLocator = By.xpath("//h2/a");
 
     @Step("getting login page title....")

@@ -1,5 +1,6 @@
 package org.sel.spotify.base;
 
+import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.sel.spotify.factory.DriverFactory;
 import org.sel.spotify.pages.HomePage;
@@ -11,7 +12,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.Properties;
 
-public class BaseTest {
+public class UIBaseTest {
     WebDriver driver;
     protected HomePage homePage;
     protected SearchPage searchPage;
@@ -33,6 +34,8 @@ public class BaseTest {
         homePage = new HomePage(driver);
         softAssert = new SoftAssert();
     }
+
+
 
     @AfterTest
         public void tearDown() {

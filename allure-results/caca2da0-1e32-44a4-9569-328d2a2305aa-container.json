@@ -1,0 +1,1 @@
+{"uuid":"caca2da0-1e32-44a4-9569-328d2a2305aa","name":"spotifyTests","children":["73d0a39a-721d-43c4-91e4-2499ae7a37b2"],"befores":[{"name":"setupAPI","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1687509482628,"stop":1687509485532}],"afters":[],"start":1687509482607,"stop":1687509498947}

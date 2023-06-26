@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/search?q=artist%3AColdplay&type=artist
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=artist:Coldplay
+				type=artist
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQD6aq0rZREc0Sv3-iekH-DkrEUi3vqCAm0IFK9OQGrJroJk8CjFOGNqCIcMuEycFgTTymnfkdVbcuNAxHSovSQDmkXKkDU1ecbirdbDcUrhT27Ok6U
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,1 @@
+{"uuid":"85fa4c62-b6dc-4c2e-b56f-cc871c2f0d4a","name":"org.sel.spotify.tests.API.basicAPITest","children":["80c84e1f-4dc1-4409-8654-58b982e71d24"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1687440004827,"stop":1687440004827}],"afters":[],"start":1687440002833,"stop":1687440015222}

@@ -12,10 +12,10 @@
 
 
     <test name="Login Page Test">
-        <parameter name="browser" value="chrome" />
+<!--        <parameter name="browser" value="chrome" />-->
 
         <classes>
-            <class name="org.sel.spotify.tests.HomePageTests" />
+            <class name="org.sel.spotify.tests.UI.HomePageTests" />
         </classes>
     </test>
 
