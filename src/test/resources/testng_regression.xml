@@ -14,19 +14,19 @@
 	</listeners>
 
 	<test name="Spotify Home Page" parallel = "methods" thread-count = "2">
-		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="114.0" />
-		<parameter name="testcasename" value="Home Page Test" />
+<!--		<parameter name="browser" value="chrome" />-->
+<!--		<parameter name="browserversion" value="114.0" />-->
+<!--		<parameter name="testcasename" value="Home Page Test" />-->
 		<classes>
 			<class name="org.sel.spotify.tests.UI.HomePageTests"/>
 		</classes>
 	</test>
 
 
-	<test name="Search  Page Test_chrome">
-		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="112.0" />
-		<parameter name="testcasename" value="Product Info Page Test" />
+	<test name="Search Page Test_chrome">
+<!--		<parameter name="browser" value="chrome" />-->
+<!--		<parameter name="browserversion" value="112.0" />-->
+<!--		<parameter name="testcasename" value="Product Info Page Test" />-->
 		<classes>
 			<class name="org.sel.spotify.tests.UI.SearchPageTests"/>
 		</classes>
