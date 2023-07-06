@@ -11,7 +11,7 @@ import java.util.List;
 
 public class HomePageTests extends UIBaseTest {
 
-    @Description("checking home page title test...")
+    @Description("Spotify checking home page title test...")
     @Feature("title test")
     @Test(priority = 0)
     public void homePageTitleTest() {
