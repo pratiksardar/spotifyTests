@@ -17,6 +17,8 @@ public class UIBaseTest {
     protected Properties prop;
 
     protected SoftAssert softAssert;
+    String browserName = "chrome";
+
 
     @Parameters({"browser"})
     @BeforeMethod

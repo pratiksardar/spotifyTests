@@ -49,7 +49,6 @@ public class DriverFactory {
     }
 
     public synchronized static WebDriver getDriver() {
-
         return tlDriver.get();
     }
 
@@ -72,22 +71,22 @@ public class DriverFactory {
     /**
      * take screenshot
      */
-    public static String getScreenshot() {
-        if(getDriver() != null){
-        File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-        String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
-        File destination = new File(path);
-        try {
-            FileUtil.copyFile(srcFile, destination);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return path;
-    }
-        else {
-            System.out.println("No driver found");
-            return "No driver found";
-        }
-    }
+//    public static String getScreenshot() {
+//        if(getDriver() != null){
+//        File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+//        String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
+//        File destination = new File(path);
+//        try {
+//            FileUtil.copyFile(srcFile, destination);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return path;
+//    }
+//        else {
+//            System.out.println("No driver found");
+//            return "No driver found";
+//        }
+//    }
 
 }
