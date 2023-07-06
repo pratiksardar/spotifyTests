@@ -9,12 +9,11 @@
 		 <listener class-name="org.sel.spotify.listeners.ExtentReportListener"/>
 		<listener
 			class-name="org.sel.spotify.listeners.TestAllureListener" />
-
 		<listener class-name="org.sel.spotify.listeners.AnnotationTransformer"/>
 	</listeners>
 
 	<test name="Spotify Home Page" parallel = "methods" thread-count = "2">
-<!--		<parameter name="browser" value="chrome" />-->
+		<parameter name="browser" value="chrome" />
 <!--		<parameter name="browserversion" value="114.0" />-->
 <!--		<parameter name="testcasename" value="Home Page Test" />-->
 		<classes>

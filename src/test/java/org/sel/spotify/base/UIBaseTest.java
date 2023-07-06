@@ -36,7 +36,7 @@ public class UIBaseTest {
 
     @AfterMethod
         public void tearDown() {
-            driver.quit();
+            driver.close();
         }
     }
 
