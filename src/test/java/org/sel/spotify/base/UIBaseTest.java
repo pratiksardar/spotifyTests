@@ -21,7 +21,7 @@ public class UIBaseTest {
 
 
     @Parameters({"browser"})
-    @BeforeMethod
+    @BeforeTest
     public void setup(String browserName) {
         df = new DriverFactory();
         prop = df.initProp();
@@ -36,9 +36,9 @@ public class UIBaseTest {
 
 
 
-    @AfterMethod
+    @AfterTest
         public void tearDown() {
-            driver.close();
+            driver.quit();
         }
     }
 
