@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Spotify App Test Regression Suite" thread-count="4"
-	parallel="tests" verbose="4">
+<suite name="Spotify App Test Regression Suite" >
 
 
 	<listeners>
@@ -14,7 +13,7 @@
 
 	<test name="Spotify Home Page" parallel = "methods" thread-count = "2">
 		<parameter name="browser" value="chrome" />
-<!--		<parameter name="browserversion" value="114.0" />-->
+		<parameter name="browserversion" value="114.0" />
 <!--		<parameter name="testcasename" value="Home Page Test" />-->
 		<classes>
 			<class name="org.sel.spotify.tests.UI.HomePageTests"/>
