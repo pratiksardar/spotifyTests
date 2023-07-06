@@ -22,8 +22,8 @@
 	</test>
 
 
-	<test name="Search Page Test_chrome">
-<!--		<parameter name="browser" value="chrome" />-->
+	<test name="SpotifySearch Page Tests">
+		<parameter name="browser" value="chrome" />
 <!--		<parameter name="browserversion" value="112.0" />-->
 <!--		<parameter name="testcasename" value="Product Info Page Test" />-->
 		<classes>
