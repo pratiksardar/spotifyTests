@@ -18,6 +18,10 @@ jobs:
         if: always()
         run: mvn package
         continue-on-error: true
+        env:
+          clientUser: ${{ secrets.CIENTUSER }}
+          clientSecret: ${{ secrets.CLIENTSECRET }}
+          browser: chrome
 
       - name: Get Allure history
         uses: actions/checkout@v3
