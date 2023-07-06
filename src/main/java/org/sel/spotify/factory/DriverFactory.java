@@ -3,6 +3,7 @@ package org.sel.spotify.factory;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.aspectj.util.FileUtil;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -48,6 +49,7 @@ public class DriverFactory {
     }
 
     public synchronized static WebDriver getDriver() {
+
         return tlDriver.get();
     }
 
@@ -71,17 +73,21 @@ public class DriverFactory {
      * take screenshot
      */
     public static String getScreenshot() {
+        if(getDriver() != null){
         File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
         String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
         File destination = new File(path);
-
         try {
-            FileUtils.copyFile(srcFile, destination);
+            FileUtil.copyFile(srcFile, destination);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return path;
+    }
+        else {
+            System.out.println("No driver found");
+            return "No driver found";
+        }
     }
 
 }
