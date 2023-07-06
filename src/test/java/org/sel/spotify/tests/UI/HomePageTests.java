@@ -13,13 +13,13 @@ public class HomePageTests extends UIBaseTest {
 
     @Description("checking home page title test...")
     @Feature("title test")
-    @Test
+    @Test(priority = 0)
     public void homePageTitleTest() {
         String actTitle = homePage.getLoginPageTitle();
         Assert.assertEquals(actTitle, AppConstants.HOMEPAGE_TITLE);
     }
 
-    @Test
+    @Test(priority = 1)
     public void getHeadingsTests() {
         List<String> headings = homePage.getHeadings();
         System.out.println(headings);

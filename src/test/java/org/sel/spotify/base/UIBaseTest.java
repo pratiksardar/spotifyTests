@@ -1,13 +1,10 @@
 package org.sel.spotify.base;
 
-import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.sel.spotify.factory.DriverFactory;
 import org.sel.spotify.pages.HomePage;
 import org.sel.spotify.pages.SearchPage;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.util.Properties;
@@ -22,7 +19,7 @@ public class UIBaseTest {
     protected SoftAssert softAssert;
 
     @Parameters({"browser"})
-    @BeforeTest
+    @BeforeMethod
     public void setup(String browserName) {
         df = new DriverFactory();
         prop = df.initProp();
@@ -37,7 +34,7 @@ public class UIBaseTest {
 
 
 
-    @AfterTest
+    @AfterMethod
         public void tearDown() {
             driver.quit();
         }

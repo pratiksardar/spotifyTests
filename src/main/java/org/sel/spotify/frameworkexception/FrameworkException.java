@@ -1,8 +1,8 @@
 package org.sel.spotify.frameworkexception;
 
-class FrameException extends Exception {
+class FrameworkException extends Exception {
 
-    public FrameException(String messg) {
+    public FrameworkException(String messg) {
         super(messg);
     }
 
